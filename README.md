@@ -1,8 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+NextJS with Tailwind Project
 <p align="center">
-  <img src="/public/images/gym.PNG" width="350" title="hover text">
+  <img src="/public/images/gym.PNG" width="600"  width="600" title="hover text">
   
 
 First, run the development server:
