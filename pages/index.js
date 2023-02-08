@@ -1,3 +1,4 @@
+
 import Image from 'next/image'
 import Head from 'next/head';
 import Link from 'next/link';
@@ -12,7 +13,7 @@ import img from '/public/images/Vector.png'
 import img78 from '/public/images/image 78.png'
 import img77 from './../public/images/image 77.png'
 
-
+import styles from '@/styles/Home.module.css'
 
 
 export default function Home(){
