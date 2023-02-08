@@ -88,7 +88,7 @@ export default function Home(){
 
       {/* Header */}
       <div className="flex flex-col md:flex-row mt-12 md:ml-24 ">
-        <div className='basis-1/2 ml-4 md:w-1/2'>
+        <div className='basis-1/2 ml-4 md:w-1/3'>
             <h1 className=' mt-16 mb-6'>Healthy in side <span>fresh</span> out side</h1>
             <p>Exercise is a very important need for our body. Health and <br /> fitness will be obtained if you can do regular exercise and <br /> run a healthy routine.</p>
             <div className='flex mt-5'>
