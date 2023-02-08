@@ -6,12 +6,12 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { useState } from "react";
 import {  AiOutlineArrowRight, AiFillPlayCircle  } from 'react-icons/ai';
 import {  RxCaretRight } from 'react-icons/rx';
-import img1 from '/public/images/Vector (2).png'
-import img2 from '/public/images/Vector (1).png'
-import img3 from '/public/images/Vector (3).png'
-import img from '/public/images/Vector.png'
-import img78 from '/public/images/image 78.png'
-import img77 from './../public/images/image 77.png'
+import img1 from '../public/images/Vector (2).png'
+import img2 from '../public/images/Vector (1).png'
+import img3 from '../public/images/Vector (3).png'
+import img from '../public/images/Vector.png'
+import img78 from '../public/images/image 78.png'
+import img77 from '../public/images/image 77.png'
 
 import styles from '@/styles/Home.module.css'
 
