@@ -1,21 +1,20 @@
 import Header from "@/Components/Header";
-import Main from "@/Components/Main";
+import MainSection from "@/Components/MainSection";
 import Head from "next/head";
 
 
 
-function index() {
+export default function Home(){
   return (
     <>
     
 
     <div className="container mx-auto">
       <Header />
-      <Main />
+      <MainSection />
    
     </div>
     </>
   );
 }
 
-export default index;
