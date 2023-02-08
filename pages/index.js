@@ -116,20 +116,20 @@ export default function Home(){
         </div>
         <div className="flex flex-col md:flex-row mt-16 md:ml-28  justify-center items-center">
           <div className='basis-1/3 '>
-            <h3>
+            <h3 className="mx-2">
             Healthy in side <br /> fresh out side
             </h3>
           </div>
-          <div className='basis-2/3 md:pl-16 '>
-            <p> Exercise is a very important need for our body. Health and fitness will be obtained <br /> if you can do regular exercise and run a healthy routine. Even at home we still have <br /> to be diligent in exercising, either alone or with your friends at home. Healthy life <br /> makes you more excited to live the day</p>
+          <div className='basis-2/3 md:pl-16  '>
+            <p className="p-4"> Exercise is a very important need for our body. Health and fitness will be obtained <br /> if you can do regular exercise and run a healthy routine. Even at home we still have <br /> to be diligent in exercising, either alone or with your friends at home. Healthy life <br /> makes you more excited to live the day</p>
           </div>
           
         </div>
     
-
+ {/* <MainSection /> */}
     <div className="container mx-auto">
      
-      {/* <MainSection /> */}
+     
       <div className="flex flex-col md:flex-row main md:my-32 md:mx-32 md:justify-center md:items-center md:py-24">
             <div className="basis-1/3">
                <div className="flex justify-center items-center">
