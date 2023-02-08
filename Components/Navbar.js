@@ -7,13 +7,12 @@ function Navbar() {
     const [navbar, setNavbar] = useState(false);
     return (
       <div>
-        <nav className="w-full fixed top-0 left-0 right-0 z-10">
+        <nav className="w-full top-0 left-0 right-0 z-10">
           <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
             <div>
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                {/* LOGO */}
-                
-                  <h1 className="text-2xl" style={{color:"#6765F0"}} ><span className="text-white"> Gym  </span>  baran</h1>
+                {/* LOGO */} 
+                  <h2 className="text-2xl" style={{color:"#6765F0"}} ><span className="text-white"> Gym  </span>  baran</h2>
                 {/* HAMBURGER BUTTON FOR MOBILE */}
                 <div className="md:hidden">
                 <button
@@ -36,27 +35,27 @@ function Navbar() {
                 }`}
               >
                 <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                  <li className="pb-6 text-xl text-black py-2 md:px-6 text-center ">
+                  <li className="pb-6 text-xl text-black py-2 md:px-4 text-center font-poppins ">
                     <Link href="#about" onClick={() => setNavbar(!navbar)}>
                       Home
                     </Link>
                   </li>
-                  <li className="pb-6 text-xl text-black py-2 px-6 text-center  ">
+                  <li className="pb-6 text-xl text-black py-2 px-4 text-center  ">
                     <Link href="#blog" onClick={() => setNavbar(!navbar)}>
                       Program
                     </Link>
                   </li>
-                  <li className="pb-6 text-xl text-black py-2 px-6 text-center">
+                  <li className="pb-6 text-xl text-black py-2 px-4 text-center">
                     <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                      Blog
                     </Link>
                   </li>
-                  <li className="pb-6 text-xl text-black py-2 px-6 text-center  ">
+                  <li className="pb-6 text-xl text-black py-2 px-4 text-center  ">
                     <Link href="#projects" onClick={() => setNavbar(!navbar)}>
                       About Us
                     </Link>
                   </li>
-                  <li className="pb-6 text-xl text-black py-2 px-6 text-center  ">
+                  <li className="pb-6 text-xl text-black py-2 px-4 text-center  ">
                   <button onClick={() => setNavbar(!navbar)} className="rounded-lg">Log in</button>
                   </li>
                  

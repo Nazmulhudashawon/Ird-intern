@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url(//db.onlinewebfonts.com/c/a8ba6f94174cce25e3e649102351f3eb?family=Sporting+Grotesque);
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -84,12 +86,11 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   background-color: #dbdadc;
-
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  font-family: 'poppins';
 }
 
 @media (prefers-color-scheme: dark) {
@@ -102,7 +103,7 @@ a {
 @tailwind components;
 @tailwind utilities;
 
-span{
+h2 span{
   background-color: #6765F0 ;
   height: 33px;
 width: 56px;
@@ -111,10 +112,64 @@ border-radius: 10px;
 margin-right: 5px;
 padding: 4px;
   }
-  button{
+ li button{
     color: white;
     background-color:#264373;
     height: 50px;
     width:114px;
     ;
+  }
+  Link{
+    font-family: 'poppins';
+  }
+  h1 span{
+    color:#6765F0 ;
+  }
+  h1{
+    font-size: 56px;
+    font-family: 'Sporting Grotesque';
+    font-weight: 700;
+  }
+  h3{
+    font-weight: 400;
+    font-size: 46px;
+    font-family: 'Sporting Grotesque';
+    
+  }
+  p{
+    color:#262524;
+    font-size: 16px;
+    opacity: 0.6;
+    font-family: 'poppins';
+  }
+  .Getbtn{
+    color: white;
+    background-color:#264373;
+    height: 56px;
+    width:246px;
+    align-items: center;
+    justify-content: center;
+  } 
+
+  .Learnbtn{
+    margin-left: 30px;
+    background-color: white;
+    color: #264373;
+    height: 56px;
+    width:174px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .Getbtn{
+      width:176px;
+    }
+    p{
+      width: 100%;
+    }
+  }
+  .main{
+    background-color:linear-gradient(87.05deg, #6462F0 0%, #9190E9 95.5%);
+    border-radius: 30px;
   }
