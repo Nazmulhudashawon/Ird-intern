@@ -170,6 +170,15 @@ padding: 4px;
     }
   }
   .main{
-    background-color:linear-gradient(87.05deg, #6462F0 0%, #9190E9 95.5%);
+    background-color: #6462F0;
     border-radius: 30px;
+    height: 274px;
+  
+  }
+  .icon{
+    background-color:rgba(149, 146, 196, 0.2);
+border-radius: 20px;
+height: 100px;
+width: 100px;
+
   }
