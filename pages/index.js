@@ -1,5 +1,5 @@
 import img from './../public/images/image 77.png'
-import Navbar from '../Components/Navbar';
+import Navbar from '../pages/Navbar';
 import Image from 'next/image'
 import { AiFillPlayCircle } from 'react-icons/ai';
 import {  RxCaretRight } from 'react-icons/rx';
