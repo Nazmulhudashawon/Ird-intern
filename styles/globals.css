@@ -144,22 +144,7 @@ padding: 4px;
     opacity: 0.6;
     font-family: 'poppins';
   }
-  @media only screen and (max-width: 600px) {
-    .Getbtn{
-      width:176px;
-      padding-left: 5px;
-      padding-Right: 5px;
-    }
-    p{
-      width: 100%;
-    }
-  }
-  @media only screen and (min-width: 601px) {
-    .Getbtn{
-      width:246px;
-    }
-    
-  }
+  
   
   .Getbtn{
     color: white;
@@ -183,13 +168,46 @@ padding: 4px;
   .main{
     background-color: #6462F0;
     border-radius: 30px;
-    height: 274px;
+    /* height: 274px; */
   
   }
   .icon{
-    background-color:rgba(149, 146, 196, 0.2);
+    background-color:rgba(196, 194, 222, 0.2);
 border-radius: 20px;
-height: 100px;
 width: 100px;
+height: 100px;
+margin-left: 85px;
+margin-Right: 30px;
 
+  }
+  h4{
+    color:white;
+    font-size:20px;
+    font-weight:700;
+    font-family: 'poppins';
+  }
+  @media only screen and (max-width: 600px) {
+    .Getbtn{
+      width:176px;
+      padding-left: 5px;
+      padding-Right: 5px;
+    }
+    p{
+      width: 100%;
+    }
+    .icon{
+      margin-left: 0px;
+      margin-Right:20px;
+      margin-Bottom:10px;
+      margin-Top:10px;
+      
+    }
+
+  }
+
+  @media only screen and (min-width: 601px) {
+    .Getbtn{
+      width:246px;
+    }
+    
   }

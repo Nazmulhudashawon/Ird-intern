@@ -130,10 +130,10 @@ export default function Home(){
     <div className="container mx-auto">
      
       {/* <MainSection /> */}
-      <div className="flex flex-col md:flex-row main md:my-32 md:mx-32 justify-center items-center">
+      <div className="flex flex-col md:flex-row main md:my-32 md:mx-32 md:justify-center md:items-center md:py-24">
             <div className="basis-1/3">
                <div className="flex justify-center items-center">
-                <div className="basis-1/2 icon">
+                <div className=" icon">
                 
                 <Image src={img} width={8} height={8} style={{ marginLeft: 'auto', marginTop:"25px",
   marginRight: 'auto'}} />
@@ -141,15 +141,15 @@ export default function Home(){
   marginRight: 'auto'}} />
                 
                      </div>
-                <div className="basis-1/2">
-                    <h4>Get that 11 line in 30 days</h4>
+                <div className="basis-1/2 ">
+                    <h4>Get that 11 line <br /> in 30 days</h4>
                     <div className="flex mt-4 items-center">
-                        <div className='basis-2/3'>
-                        <p>learn more</p>
+                        <div className='basis-1/2'>
+                        <p className="text-white">learn more</p>
 
                         </div>
-                        <div className='1/3'>
-                        <AiOutlineArrowRight />
+                        <div >
+                        <AiOutlineArrowRight color='white' />
 
                         </div>
                    
@@ -162,7 +162,7 @@ export default function Home(){
             </div>
             <div className="basis-1/3">
             <div className="flex justify-center items-center ">
-                <div className="basis-1/2 icon">
+                <div className=" icon">
                 <Image src={img} width={8} height={8} style={{ marginLeft: 'auto', marginTop:"25px",
   marginRight: 'auto'}} />
                 <Image src={img2} width={38} height={40} style={{ marginLeft: 'auto',
@@ -170,14 +170,14 @@ export default function Home(){
                     
                      </div>
                 <div className="basis-1/2">
-                    <h4>14 Days sherd challenge</h4>
+                    <h4>14 Days <br /> sherd challenge</h4>
                     <div className="flex mt-4 items-center">
-                        <div className='basis-2/3'>
-                        <p>learn more</p>
+                        <div className='basis-1/2'>
+                        <p className="text-white">learn more</p>
 
                         </div>
-                        <div className='1/3'>
-                        <AiOutlineArrowRight />
+                        <div>
+                        <AiOutlineArrowRight color='white' />
 
                         </div>
                    
@@ -190,21 +190,21 @@ export default function Home(){
             </div>
             <div className="basis-1/3">
             <div className="flex justify-center items-center ">
-                <div className="basis-1/2 icon">
+                <div className=" icon">
                 <Image src={img} width={8} height={8} style={{ marginLeft: 'auto', marginTop:"25px",
   marginRight: 'auto'}} />
                 <Image src={img3} width={38} height={40} style={{ marginLeft: 'auto',
   marginRight: 'auto'}} />
                      </div>
                 <div className="basis-1/2">
-                    <h4>Get flat belly in 30 days</h4>
+                    <h4>Get flat belly <br /> in 30 days</h4>
                     <div className="flex mt-4 items-center">
-                        <div className='basis-2/3'>
-                        <p>learn more</p>
+                        <div className='basis-1/2'>
+                        <p className="text-white">learn more</p>
 
                         </div>
-                        <div className='1/3'>
-                        <AiOutlineArrowRight />
+                        <div >
+                        <AiOutlineArrowRight color='white'/>
 
                         </div>
                    
