@@ -6,7 +6,7 @@ import {  RxCaretRight } from 'react-icons/rx';
 import Head from 'next/head';
 
 // import Header from "@/Components/Header";
-import MainSection from "@/Components/MainSection";
+import MainSection from "../pages/MainSection";
 
 
 
