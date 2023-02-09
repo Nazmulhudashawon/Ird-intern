@@ -289,17 +289,14 @@ export default function Home() {
               healthy <br /> routine. Even at home we still have to be diligent
               in exercising, either <br /> alone or with your friends at home.{' '}
             </p>
-            <div className="flex mt-5">
+            <div className="flex mt-16">
               <div className="basis-1/3 ">
-                <button className="rounded-lg Getbtn flex ">
+                <button className="rounded-lg Getbtn flex  ">
                   Get Started{' '}
-                  <RxCaretRight
-                    size={30}
+                  <AiOutlineArrowRight color="white"
+                    size={20}
                     style={{
-                      color: 'black',
-                      backgroundColor: 'white',
-                      borderRadius: '50%',
-                      marginLeft: '52px',
+                      marginLeft: '60px',
                     }}
                   />
                 </button>
