@@ -93,7 +93,7 @@ export default function Home() {
       {/* _____________Header_______________ */}
 
       <div className="flex flex-col md:flex-row mt-12 md:ml-20 ">
-        <div className="basis-1/2 md:w-50% ">
+        <div className="basis-1/2 md:w-142">
           <h1 className=" mt-16 mb-6 ">
             Healthy in side <span>fresh</span> out side
           </h1>
