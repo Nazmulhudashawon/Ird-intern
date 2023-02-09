@@ -61,22 +61,22 @@ export default function Home() {
             >
               <ul className="h-screen md:h-auto items-center justify-center md:flex ">
                 <li className="pb-6 text-xl text-black py-2 md:px-4 text-center font-poppins ">
-                  <Link href="#about" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#" onClick={() => setNavbar(!navbar)}>
                     Home
                   </Link>
                 </li>
                 <li className="pb-6 text-xl text-black py-2 px-4 text-center  ">
-                  <Link href="#blog" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#" onClick={() => setNavbar(!navbar)}>
                     Program
                   </Link>
                 </li>
                 <li className="pb-6 text-xl text-black py-2 px-4 text-center">
-                  <Link href="#contact" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#" onClick={() => setNavbar(!navbar)}>
                     Blog
                   </Link>
                 </li>
                 <li className="pb-6 text-xl text-black py-2 px-4 text-center  ">
-                  <Link href="#projects" onClick={() => setNavbar(!navbar)}>
+                  <Link href="#" onClick={() => setNavbar(!navbar)}>
                     About Us
                   </Link>
                 </li>
@@ -167,9 +167,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="basis-1/2 md:ml-56">
+        <div className="basis-1/2 md:ml-64">
           <Image
-            className="mt-8 mx-auto md:mt-0 md:mx-0"
+            className="mt-8  md:mt-0 "
             src={img77}
             width={358}
             height={580}
