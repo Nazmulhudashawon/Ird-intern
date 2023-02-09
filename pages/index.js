@@ -11,6 +11,10 @@ import img3 from '../public/images/Vector (3).png';
 import img from '../public/images/Vector.png';
 import img78 from '../public/images/image 78.png';
 import img77 from '../public/images/image 77.png';
+import nike from '../public/images/nike.png';
+import puma from '../public/images/puma.png';
+import addidas from '../public/images/Adidas_logo.png';
+import reebok from '../public/images/reebok.png';
 
 import styles from '@/styles/Home.module.css';
 
@@ -129,10 +133,43 @@ export default function Home() {
             </div>
             <div className="basis-1/3"></div>
           </div>
+          <h5 className=" my-8 text-xl">Brands:</h5>
+          <div className="flex flex-row items-center">
+            <div className="">
+              <Image src={nike} width={60} height={60} alt="" />
+            </div>
+            <div>
+              <Image
+                className=" ml-6 md:ml-16"
+                src={addidas}
+                width={60}
+                height={60}
+                alt=""
+              />
+            </div>
+            <div>
+              <Image
+                className=" ml-6 md:ml-16"
+                src={puma}
+                width={60}
+                height={60}
+                alt=""
+              />
+            </div>
+            <div>
+              <Image
+                className=" ml-6 md:ml-16"
+                src={reebok}
+                width={60}
+                height={60}
+                alt=""
+              />
+            </div>
+          </div>
         </div>
         <div className="basis-1/2 md:ml-56">
           <Image
-            className=" sm:ml-4"
+            className="mt-8 mx-auto md:mt-0 md:mx-0"
             src={img77}
             width={358}
             height={580}
@@ -293,7 +330,8 @@ export default function Home() {
               <div className="basis-1/3 ">
                 <button className="rounded-lg Getbtn flex  ">
                   Get Started{' '}
-                  <AiOutlineArrowRight color="white"
+                  <AiOutlineArrowRight
+                    color="white"
                     size={20}
                     style={{
                       marginLeft: '60px',
